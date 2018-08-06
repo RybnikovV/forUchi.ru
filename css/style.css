@@ -1,0 +1,66 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.sum{
+    font-size:32px;
+    /* letter-spacing: 13px; */
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.sum div{
+    display: inline-block;
+    padding: 0 10px 
+}
+
+.sum input{
+    margin: 0 10px;
+}
+
+.axis{
+    position: relative;
+}
+.arrow_1,.arrow_2{
+    position: absolute;
+    /* width: 100%;
+    height: 100%; */
+    top: -60px;
+}
+.arrow_1{
+    z-index: 10;
+}
+
+.sum input{
+    padding: 5px;
+    width: 30px;
+    font-size: 27px;
+    height: 20px;
+    display: none;
+}
+
+.sl1, .sl2{
+    position: absolute;
+    top:-70px;
+    left: 0;
+    z-index: 20;
+    display: none;
+    width: 15px;
+    height: 25px;
+    font-size: 24px;
+    padding: 5px;
+}
+
+/*style learn*/
+.right{
+    background-color: rgba(46, 139, 87, 0.9);
+}
+.wrong{
+    background-color: #FF7F50;
+}
+.warring{
+    color: red;
+}
